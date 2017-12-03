@@ -7,7 +7,9 @@ html{
   text-align: center;
   margin: auto;
 }
-
+body{
+  margin: 0;
+}
 h2,
 h3,
 h4 {
@@ -22,7 +24,6 @@ h4 {
 }
 
 header{
-  border: solid 1px red;
   height: 69px;
   width: 100%;
   position: fixed;
@@ -69,6 +70,7 @@ nav a{
   height: 700px;
   margin: auto;
   padding: 70px;
+  display: block;
 }
 
 .teas{
